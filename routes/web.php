@@ -14,11 +14,4 @@
 Route::get('/', 'PagesController@Home');
 Route::get('about', 'PagesController@About');
 Route::get('contact', 'PagesController@Contact');
-
-Route::get('about', function() {
-    return view('about');
-});
-
-Route::get('contacts', function() {
-    return view('contacts');
-});
+Route::get('projects', 'ProjectsController@index');
