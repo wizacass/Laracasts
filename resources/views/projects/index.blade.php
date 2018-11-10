@@ -12,6 +12,7 @@
             <li>{{ $project->title }}</li>
         @endforeach
     </ul>
+    <a href="/projects/create">Create a project</a>
 
 </body>
 </html>
